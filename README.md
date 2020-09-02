@@ -1,2 +1,3 @@
 # Simple-web-scraper
-Simple web scraper which shows daily updated featured biographies and articles in history
+Web scraper implemented in Node.js using Cheerio and Axios npm package
+
