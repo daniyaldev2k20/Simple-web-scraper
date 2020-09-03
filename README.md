@@ -1,2 +1,2 @@
-Web scraper implemented in NodeJS which scrapes daily featured articles and biographies pertaining to history from Wikipedia__
-Npm packages used: cheerio, and axios__
+Web scraper implemented in NodeJS which scrapes daily featured articles and biographies pertaining to history from Wikipedia  <br />
+Npm packages used: cheerio, and axios  <br />
