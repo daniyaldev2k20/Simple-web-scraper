@@ -1,0 +1,1 @@
+Web scraper implemented via Cheerio and Axios npm package

@@ -3,12 +3,12 @@ const axios = require("axios").default;
 const cheerio = require("cheerio");
 
 let url = "https://en.wikipedia.org";
+let featuredLinks = [];
+let biographies = [];
+let onThisDay = [];
 
 axios.get("https://en.wikipedia.org/wiki/Portal:History").then((res) => {
   const $ = cheerio.load(res.data);
-  let featuredLinks = [];
-  let biographies = [];
-  let onThisDay = [];
 
   $(
     ".portal-column-left > div > div > table > tbody > tr > td > div > ul > li > a[href]"
